@@ -1,58 +1,27 @@
-# FOOSUS — Dépôt d’Architecture  
-*Cadre architectural — Phase 1*
+# Déclaration de Travail d’Architecture — FOOSUS
 
-Ce repository rassemble l’ensemble des artefacts produits dans le cadre de la définition de l’architecture cible de la plateforme FOOSUS. Il constitue la base documentaire de référence pour la soutenance et permet d’explorer facilement les livrables, les vues d’architecture et les décisions structurantes.
+Ce dossier contient la Déclaration de Travail d’Architecture élaborée pour la plateforme FOOSUS.  
+Ce document définit le cadre de travail architectural de la phase 1, en s’appuyant sur une adaptation pragmatique du cadre TOGAF.
 
-L’objectif est de fournir une vision claire, cohérente et navigable de l’architecture, en s’appuyant sur une adaptation pragmatique du cadre TOGAF et sur une gouvernance lean.
+Il présente la vision d’architecture, les principes structurants, la portée, les parties prenantes, l’approche retenue ainsi que les livrables attendus.  
+Il constitue la base de référence pour l’ensemble des autres artefacts du dépôt.
 
----
+## Contenu du dossier
 
-## 📘 Contenu du repository
+- **Declaration_Travail_Architecture_Foosus.pdf**  
+  Version finale destinée à la consultation.
 
-Le dépôt est organisé en plusieurs sections, chacune correspondant à un livrable ou à un ensemble d’artefacts.
+- **Declaration_Travail_Architecture_Foosus.docx**  
+  Version éditable du document.
 
-### **1. Déclaration de Travail d’Architecture**  
-Cadre de travail, vision, principes structurants, portée, parties prenantes, approche et livrables attendus.
+## Rôle dans l’architecture FOOSUS
 
-### **2. Spécification des Conditions Requises**  
-Exigences fonctionnelles et non fonctionnelles, contraintes, hypothèses et critères de conformité.
+La Déclaration de Travail sert de point d’entrée pour comprendre :
 
-### **3. Contrats d’Architecture**  
-- Contrat Business  
-- Contrat Dev & Design  
-- Contrat Développement & Implémentation  
+- la vision cible,  
+- les objectifs de la phase 1,  
+- les principes structurants,  
+- la gouvernance lean mise en place,  
+- et les livrables qui composent le dépôt architectural.
 
-Ces documents définissent les engagements réciproques et les modalités de collaboration.
-
-### **4. Vues d’Architecture**  
-Représentations visuelles de la plateforme :  
-vue de contexte, domaines, micro‑services, coexistence, déploiement.
-
-### **5. Modèles UML**  
-Diagrammes locaux illustrant les interactions, composants et structures internes.
-
-### **6. Décisions Architecturales (ADR)**  
-Historique des décisions structurantes, documentées de manière concise et traçable.
-
-### **7. Gouvernance**  
-Modèle de gouvernance lean, processus de revue et principes d’alignement.
-
----
-
-## 🎯 Objectif du dépôt
-
-Ce repository a pour vocation de :
-
-- rendre l’architecture **visible, compréhensible et partageable**,  
-- fournir un support clair pour la **soutenance**,  
-- permettre une navigation fluide entre les artefacts,  
-- servir de base à la **phase suivante** de construction de la plateforme FOOSUS.
-
----
-
-## 📂 Structure du dépôt
-
-L’arborescence complète est disponible dans les dossiers du repository.  
-Chaque section contient un fichier `README.md` dédié pour faciliter la navigation.
-
----
+Elle assure l’alignement entre les parties prenantes et fournit le cadre nécessaire à la construction d’une architecture cohérente, évolutive et durable.
