@@ -1,26 +1,48 @@
 # Vues d’Architecture — FOOSUS
 
-Ce dossier contient les différentes vues d’architecture permettant de comprendre la structure, l’organisation et le fonctionnement de la plateforme FOOSUS.  
-Ces représentations visuelles facilitent la communication, la prise de décision et la compréhension globale du système.
+Ce dossier regroupe les représentations visuelles de l’architecture cible de la plateforme FOOSUS.  
+Chaque vue illustre un aspect structurant du système, facilitant la compréhension, la communication et la validation des choix techniques.
 
-## Sous‑dossiers
+Les vues ont été conçues pour répondre aux besoins des parties prenantes, soutenir les revues d’architecture et servir de support à la soutenance.
 
-### **Vue de Contexte**
-Représentation des interactions entre FOOSUS et son environnement externe.
+---
 
-### **Vue des Domaines**
-Découpage fonctionnel de la plateforme selon les domaines métier.
+## 📘 Vues disponibles
 
-### **Vue Micro‑services**
-Organisation des services, frontières, responsabilités et interactions.
+### **Vue de Contexte**  
+Représente les interactions entre FOOSUS et son environnement externe (utilisateurs, systèmes tiers, partenaires).  
+Permet d’identifier les flux, les dépendances et les frontières du système.
 
-### **Vue de Coexistence**
-Stratégie de migration et articulation entre l’ancien et le nouveau système.
+### **Vue des Domaines**  
+Découpe la plateforme en domaines fonctionnels cohérents : Recherche, Catalogue & Offres, Fournisseurs, Consommateurs, Back‑office, Expérimentation, Paiements (futur).  
+Permet de structurer les responsabilités et de guider le découpage des services.
 
-### **Vue de Déploiement**
-Organisation technique, environnements, régions et principes de disponibilité.
+### **Vue Micro‑services**  
+Présente les services techniques, leurs API exposées, leurs dépendances et leur organisation par domaine.  
+Permet de visualiser les frontières, les interactions et les points d’observabilité.
 
-## Rôle dans l’architecture FOOSUS
+### **Vue de Coexistence**  
+Modélise la stratégie de migration entre l’ancien système et FOOSUS.  
+Utilise le pattern Strangler pour permettre une transition progressive et réversible.
 
-Les vues d’architecture rendent la plateforme lisible et partageable.  
-Elles constituent un support essentiel pour les ateliers, les revues et la soutenance.
+### **Vue de Déploiement**  
+Décrit l’organisation technique de la plateforme : cloud provider, régions, load balancer, réplicas, CI/CD, monitoring.  
+Permet d’évaluer la scalabilité, la résilience et la capacité de livraison continue.
+
+---
+
+## 🧭 Rôle des vues dans l’architecture FOOSUS
+
+Les vues d’architecture :
+
+- rendent la plateforme **lisible et partageable**,  
+- facilitent les **revues techniques et fonctionnelles**,  
+- soutiennent la **prise de décision** et la **communication inter‑équipes**,  
+- constituent un **support visuel essentiel** pour la soutenance.
+
+---
+
+## 📂 Accès aux diagrammes
+
+Les fichiers sont disponibles dans le sous‑dossier `Diagrams`.  
+Chaque diagramme est nommé selon sa vue et accompagné d’une légende si nécessaire.
