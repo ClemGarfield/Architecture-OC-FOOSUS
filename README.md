@@ -1,28 +1,38 @@
 # FOOSUS — Dépôt d’Architecture  
 *Cadre architectural — Phase 1*
 
-Ce repository rassemble l’ensemble des artefacts produits dans le cadre de la définition de l’architecture cible de la plateforme FOOSUS. Il constitue la base documentaire de référence pour la soutenance et permet d’explorer facilement les livrables, les vues d’architecture et les décisions structurantes.
+Ce repository rassemble l’ensemble des artefacts produits dans le cadre de la définition de l’architecture cible de la plateforme FOOSUS.  
+Il constitue la base documentaire de référence pour la soutenance et permet d’explorer facilement les livrables, les vues d’architecture et les décisions structurantes.
 
 L’objectif est de fournir une vision claire, cohérente et navigable de l’architecture, en s’appuyant sur une adaptation pragmatique du cadre TOGAF et sur une gouvernance lean.
 
 ---
 
-## 📘 Contenu du repository
+## 📂 Navigation rapide
 
-Le dépôt est organisé en plusieurs sections, chacune correspondant à un livrable ou à un ensemble d’artefacts.
+- 📄 [Déclaration de Travail d’Architecture](01-Declaration%20Travail%20Architecture/)
+- 📄 [Spécification des Conditions Requises](02-Specification%20Conditions%20Requ/)
+- 📄 [Contrats d’Architecture](03-Contrats/)
+- 🖼️ [Vues d’Architecture (diagrammes)](04-Vues%20Architecture/Diagrams/)
+- 📐 [Modèles UML](05-Modeles%20UML/)
+- 🧭 [Décisions Architecturales (ADR)](06-Decisions%20Architecturales/)
+- 🏛️ [Gouvernance](07-Gouvernance/)
+- 🔗 [Lien GitHub (fichier TXT)](liens.txt)
+
+---
+
+## 📘 Contenu du repository
 
 ### **1. Déclaration de Travail d’Architecture**  
 Cadre de travail, vision, principes structurants, portée, parties prenantes, approche et livrables attendus.
 
 ### **2. Spécification des Conditions Requises**  
-Exigences fonctionnelles et non fonctionnelles, contraintes, hypothèses et critères de conformité.
+Exigences fonctionnelles et non fonctionnelles, contraintes, hypothèses, critères de conformité, SLA/SLO/SLI.
 
 ### **3. Contrats d’Architecture**  
 - Contrat Business  
 - Contrat Dev & Design  
 - Contrat Développement & Implémentation  
-
-Ces documents définissent les engagements réciproques et les modalités de collaboration.
 
 ### **4. Vues d’Architecture**  
 Représentations visuelles de la plateforme :  
@@ -50,9 +60,22 @@ Ce repository a pour vocation de :
 
 ---
 
-## 📂 Structure du dépôt
+## ✔️ Conformité aux livrables attendus
 
-L’arborescence complète est disponible dans les dossiers du repository.  
-Chaque section contient un fichier `README.md` dédié pour faciliter la navigation.
+Ce dépôt contient l’ensemble des éléments requis pour la soutenance :
+
+- DTA  
+- SCR  
+- Contrats d’architecture  
+- Vues d’architecture  
+- Modèles UML  
+- Décisions structurantes  
+- Gouvernance  
+- Fichier TXT avec lien GitHub  
 
 ---
+
+## 🏁 Conclusion
+
+Ce dépôt constitue la base documentaire complète de l’architecture FOOSUS — Phase 1.  
+Il est conçu pour être clair, navigable et directement exploitable lors de la soutenance.
